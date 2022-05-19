@@ -3,7 +3,7 @@ Two tools for use in determining a member's savings sufficiency for an emergency
 
 ---
 ## Technologies
-Financial Planning Tools uses **Jupyter Lab** to run the program, and the included **MC ForecastTools** to run the Monte Carlo simulations. It also uses the following imports:
+Financial Planning Tools uses **Jupyter Lab** to run the program, and the included **MC ForecastTools** to run the Monte Carlo simulations. It also uses the **Alpaca API** to pull live data via the **Alpaca SDK**. It also uses the following imports:
 ```python
 import os
 import requests
